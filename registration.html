@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  background: linear-gradient(to left, white, rgb(133, 133, 177));
+    padding: 20px;
+
+}
+
+.registration-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form label {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.registration-form input,
+.registration-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.registration-form input[type="file"] {
+    padding: 5px;
+}
+
+.registration-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover {
+    background-color: #0056b3;
+}
+.mt-3
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    a{
+    color: blue;}
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="registration-form">
+        <h2>Registeration Here</h2>
+        <form action="/submit_registration" method="POST" enctype="multipart/form-data">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a password" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills" placeholder="List your skills..." rows="4"></textarea>
+
+            <label for="profile-picture">Profile Picture:</label>
+            <input type="file" id="profile-picture" name="profile-picture" accept="image/*" required>
+
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+            <button type="submit">Register</button>
+            <p class="mt-3">Already have an account?<a href="login">Sign in here</a></p>
+        </form>
+    </div>
+
+</body>
+
+</html>

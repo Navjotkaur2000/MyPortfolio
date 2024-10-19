@@ -1,0 +1,383 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to left, lightblue, white);
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 84%;
+  margin: auto;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(27, 26, 26);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.signUpButton {
+  width: 150px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 100 !important;
+}
+
+.signUpButton:hover {
+  border: 2px solid white !important;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 100 !important;
+}
+
+.portfolioSummary {
+  margin-left: 8%;
+  margin-top: 11%;
+}
+.portfolioSummary h1 {
+  font-size: 50px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+  margin-bottom: 20px;
+}
+.portfolioSummary h2 {
+  color: black;
+  line-height: 26px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+.portfolioSummary a {
+  background-color: hsl(0, 0%, 7%);
+  border: 2px solid white;
+  text-decoration: none;
+  font-weight: 100;
+  display: inline-block;
+  border-radius: 6px;
+  color: white;
+  padding: 13px 40px;
+  margin: 30px 0px;
+  width: 170px;
+  height: 50px;
+  letter-spacing: 1px;
+}
+.portfolioSummary a:hover {
+  border: 2px solid white;
+  background-color: beige;
+  color: black;
+  letter-spacing: 1px;
+}
+
+span {
+  text-shadow: 1px 1px 2px orange, 0 0 1em white, 0 0 0.2em orange;
+}
+
+.images {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+}
+.images img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%);
+  transition: bottom 2s left 1s;
+}
+
+.about {
+  margin-top: 21px;
+  background: linear-gradient(to left, rgb(158, 158, 233), white);
+}
+.about .about-heading {
+  position: relative;
+  top: 46px;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  color: grey;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.about .about-heading:hover {
+  color: white;
+}
+.about .about-paragraph {
+  color: black;
+  margin-left: 100px;
+  font-size: 16;
+  margin-top: 82px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+.about .about-head1 {
+  color: grey;
+  margin-top: 40px;
+  margin-left: 100px;
+  font-size: 30px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  word-spacing: 3px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.about .about-head2 {
+  color: grey;
+  margin-top: 40px;
+  margin-left: 100px;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.about .about-head3 {
+  color: gray;
+  margin-top: 40px;
+  font-size: 30px;
+  margin-left: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.about .about-head4 {
+  color: grey;
+  margin-top: 40px;
+  font-size: 30px;
+  margin-left: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.about .about-head5 {
+  color: grey;
+  margin-top: 40px;
+  font-size: 30px;
+  margin-left: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.about .about-head6 {
+  color: grey;
+  margin-top: 40px;
+  font-size: 30px;
+  margin-left: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.about .about-head6 {
+  color: grey;
+  margin-top: 40px;
+  font-size: 30px;
+  margin-left: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.about .about-head7 {
+  color: grey;
+  margin-top: 40px;
+  font-size: 30px;
+  margin-left: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+  line-height: 18px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+.about .about-head8 {
+  color: grey;
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.about .about-head9 {
+  color: grey;
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.about .para1 {
+  color: black;
+  margin-left: 100px;
+  font-size: 16;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 10px;
+}
+.about .para2 {
+  color: black;
+  margin-left: 100px;
+  font-size: 16;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 10px;
+}
+.about .para3 {
+  color: black;
+  margin-left: 100px;
+  font-size: 16;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 10px;
+}
+.about .para4 {
+  color: black;
+  margin-left: 100px;
+  font-size: 16;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 10px;
+}
+.about .para5 {
+  color: black;
+  margin-left: 100px;
+  font-size: 16;
+  margin-top: 20px;
+  line-height: 23px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 23px;
+}
+.about .para6 {
+  color: black;
+  margin-left: 100px;
+  font-size: 16;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 23px;
+}
+.about .para7 {
+  color: black;
+  margin-left: 100px;
+  font-size: 16;
+  margin-top: 10px;
+  padding-bottom: 60px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 23px;
+}
+.about .para8 {
+  color: black;
+  margin-left: 100px;
+  font-size: 16;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 10px;
+}
+
+.languages {
+  margin-top: -40px;
+  background: linear-gradient(to right, rgb(140, 140, 235), white);
+}
+.languages .lang-head1 {
+  position: relative;
+  top: 46px;
+  font-size: 38px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  font-size: 10;
+  margin-bottom: 80px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.languages .lang-head1:hover {
+  color: white;
+}
+.languages .lang-head2 {
+  margin-top: 91px;
+  color: grey;
+  margin-left: 100px;
+  font-size: 10;
+  line-height: 18px;
+  margin-bottom: 31px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.languages .lang-head3 {
+  margin-top: 10px;
+  color: grey;
+  margin-left: 100px;
+  font-size: 10;
+  line-height: 42px;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+.languages .para8 {
+  color: black;
+  margin-left: 114px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1px;
+}
+.languages li {
+  color: black;
+  margin-left: 70px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 25px;
+}
+
+.contact {
+  position: relative;
+  top: -16px;
+  background: linear-gradient(to top, white, rgb(133, 133, 177));
+  height: 51vh;
+}
+
+.contact-head1 {
+  position: relative;
+  top: 50px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}
+
+.contact-head1:hover {
+  color: white;
+}
+
+.contact ul {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 127px;
+}
+.contact ul li a {
+  text-decoration: none;
+  color: black;
+}
+.contact ul li img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul li a:hover {
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em orange;
+}/*# sourceMappingURL=style.css.map */
